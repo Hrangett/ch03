@@ -154,8 +154,13 @@
     <ClCompile Include="03_RacingCarOuterFunc.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="04_Car.cpp" />
-    <ClCompile Include="04_RacingMain.cpp" />
+    <ClCompile Include="04_Car.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="04_RacingMain.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="05_FruitSaleSim01.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h" />
